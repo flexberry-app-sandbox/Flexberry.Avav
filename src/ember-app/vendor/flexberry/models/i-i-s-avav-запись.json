@@ -1,0 +1,106 @@
+﻿{
+  "name": "IISAvavЗапись",
+  "modelName": "i-i-s-avav-запись",
+  "className": "Запись",
+  "nameSpace": "IIS.Avav",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "время",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "Time",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "клиент",
+      "relatedTo": "i-i-s-avav-клиент",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ЗаписьE",
+      "modelName": "i-i-s-avav-запись",
+      "attrs": [
+        {
+          "name": "время",
+          "caption": "Время",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "имя",
+          "lookupValueField": "имя",
+          "relationName": "Клиент",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "имя",
+              "caption": "Имя",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Клиент",
+          "name": "клиент",
+          "relatedTo": "i-i-s-avav-клиент",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "ЗаписьL",
+      "modelName": "i-i-s-avav-запись",
+      "attrs": [
+        {
+          "name": "время",
+          "caption": "Время",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Клиент",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "имя",
+              "caption": "Имя",
+              "hidden": false,
+              "index": 1
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Имя",
+          "name": "клиент",
+          "relatedTo": "i-i-s-avav-клиент",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

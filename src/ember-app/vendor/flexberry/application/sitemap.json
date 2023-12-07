@@ -1,0 +1,29 @@
+﻿{
+  "applicationCaption": "Avav",
+  "applicationTitle": "Avav",
+  "items": [
+    {
+      "link": null,
+      "menuName": "avav",
+      "caption": "Avav",
+      "title": "Avav",
+      "children": [
+        {
+          "link": "i-i-s-avav-клиент-l",
+          "menuName": null,
+          "caption": "Клиент",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-avav-запись-l",
+          "menuName": null,
+          "caption": "Запись",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

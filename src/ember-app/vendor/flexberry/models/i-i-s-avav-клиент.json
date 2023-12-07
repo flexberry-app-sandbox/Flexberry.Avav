@@ -1,0 +1,54 @@
+﻿{
+  "name": "IISAvavКлиент",
+  "modelName": "i-i-s-avav-клиент",
+  "className": "Клиент",
+  "nameSpace": "IIS.Avav",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "имя",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "КлиентE",
+      "modelName": "i-i-s-avav-клиент",
+      "attrs": [
+        {
+          "name": "имя",
+          "caption": "Имя",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "КлиентL",
+      "modelName": "i-i-s-avav-клиент",
+      "attrs": [
+        {
+          "name": "имя",
+          "caption": "Имя",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

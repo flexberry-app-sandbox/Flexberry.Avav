@@ -1,0 +1,1 @@
+docker-compose -p avav-java up -d

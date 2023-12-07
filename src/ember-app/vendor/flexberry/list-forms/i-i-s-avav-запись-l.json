@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-avav-запись-e",
+  "editForm": "i-i-s-avav-запись-e",
+  "external": false,
+  "caption": "Запись",
+  "name": "IISAvavЗаписьL",
+  "className": "ЗаписьL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-avav-запись",
+      "modelProjection": "ЗаписьL"
+    }
+  ]
+}

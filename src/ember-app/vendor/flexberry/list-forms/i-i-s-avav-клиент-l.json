@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-avav-клиент-e",
+  "editForm": "i-i-s-avav-клиент-e",
+  "external": false,
+  "caption": "Клиент",
+  "name": "IISAvavКлиентL",
+  "className": "КлиентL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-avav-клиент",
+      "modelProjection": "КлиентL"
+    }
+  ]
+}
